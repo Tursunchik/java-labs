@@ -94,9 +94,18 @@ public class deneme {
 // g = h;
 // System.out.println("e: "+e+ " g:"+g );
 
- double a = 3.6, b;
- b = a + a;
-System.out.println("Answer: " + a + "+" + a);
+//  double a = 3.6, b;
+//  b = a + a;
+// System.out.println("Answer: " + a + "+" + a);
+
+// String s = "Rock";
+// int i = s.indexOf("va");
+
+String country = "The Republic of Turkey";
+ System.out.println(country.charAt(4));
+  System.out.println(country.length());
+  System.out.println(country.substring(4, 12));
+  System.out.println(country.indexOf("epu"));
 
   }
 
