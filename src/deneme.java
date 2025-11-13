@@ -61,15 +61,24 @@ public class deneme {
 // else
 // System.out.println(x + " is not positive");
 
-int day = 3;
-String result = switch (day) {
-    case 1 -> "Monday";
-    case 2 -> "Tuesday";
-    case 3 -> "Wednesday";
-    default -> "Invalid day";
-};
-System.out.println(result);
+// int day = 3;
+// String result = switch (day) {
+//     case 1 -> "Monday";
+//     case 2 -> "Tuesday";
+//     case 3 -> "Wednesday";
+//     default -> "Invalid day";
+// };
+// System.out.println(result);
 
-    }
+String s1 = new String("hello");
+String s2 = new String("hello");
+if (s1==s2)
+System.out.println("They are equal");
+else
+System.out.println("They are not equal");
+
+  }
+
+
 }
 
