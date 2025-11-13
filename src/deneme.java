@@ -70,12 +70,33 @@ public class deneme {
 // };
 // System.out.println(result);
 
-String s1 = new String("hello");
-String s2 = new String("hello");
-if (s1==s2)
-System.out.println("They are equal");
-else
-System.out.println("They are not equal");
+// String s1 = new String("hello");
+// String s2 = new String("hello");
+// if (s1==s2)
+// System.out.println("They are equal");
+// else
+// System.out.println("They are not equal");
+
+// String s1 = "Hello";
+// String lowerS1 = s1.toLowerCase();
+// String s2 = "hello";
+// System.out.print(s1);
+// if (s1.compareTo(s2) == 0 )
+// System.out.println("Equal!");
+
+// int a=10, b=5, c=6, d=6, e=7, f=3, h=1, g=5;
+// if (a > b)
+// {
+// if (c > d)
+// e = f;
+// }
+// else
+// g = h;
+// System.out.println("e: "+e+ " g:"+g );
+
+ double a = 3.6, b;
+ b = a + a;
+System.out.println("Answer: " + a + "+" + a);
 
   }
 
