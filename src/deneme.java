@@ -101,11 +101,16 @@ public class deneme {
 // String s = "Rock";
 // int i = s.indexOf("va");
 
-String country = "The Republic of Turkey";
- System.out.println(country.charAt(4));
-  System.out.println(country.length());
-  System.out.println(country.substring(4, 12));
-  System.out.println(country.indexOf("epu"));
+// String country = "The Republic of Turkey";
+//  System.out.println(country.charAt(4));
+//   System.out.println(country.length());
+//   System.out.println(country.substring(4, 12));
+//   System.out.println(country.indexOf("epu"));
+
+double price = -20.99;
+int intPrice = (int) price; 
+System.out.println(intPrice);
+
 
   }
 
