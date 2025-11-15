@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class deneme {
     public static void main(String[] args) {
 //         int N = 100;
@@ -107,10 +108,45 @@ public class deneme {
 //   System.out.println(country.substring(4, 12));
 //   System.out.println(country.indexOf("epu"));
 
-double price = -20.99;
-int intPrice = (int) price; 
-System.out.println(intPrice);
+// int a = 10;
+// double price = -20.99;
+// int intPrice = (int) price; 
+// System.out.println(intPrice);
+// int b = a + 1;
+// a *= 0 + 1;
+// System.out.println(a);
+// System.out.println(3 * (++a));
+// System.out.println(a);
 
+// int money = 87;
+// int penny = 87 / 25;
+// money = money % 25;
+// System.out.println(money);
+// System.out.println(penny);
+
+// System.out.println("Privet "+ "87 + 97");
+
+// Scanner input = new Scanner(System.in);
+// System.out.println("Enter age: ");
+//  int age = input.nextInt();
+//   input.nextLine();
+//      System.out.println("Enter name: ");
+//       String name = input.nextLine();
+
+// int a = 1;
+// System.out.println(a++);
+// System.out.println(++a);
+
+// String s1 = "Java";
+// String s2 = s1.substring(2);
+// String s3 = s1.concat(" all over the world");
+// System.out.print(s1);
+
+// System.out.print( 4 / 10);
+int x = 5;
+int y = 2;
+double result = x / y;
+System.out.println((double)  x / 2);
 
   }
 
