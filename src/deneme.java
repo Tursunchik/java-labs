@@ -143,10 +143,13 @@ public class deneme {
 // System.out.print(s1);
 
 // System.out.print( 4 / 10);
-int x = 5;
-int y = 2;
-double result = x / y;
-System.out.println((double)  x / 2);
+// int x = 5;
+// int y = 2;
+// double result = x / y;
+// System.out.println((double)  x / 2);
+
+boolean x = (15 > 10);
+System.out.println(x);
 
   }
 
