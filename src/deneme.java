@@ -148,25 +148,37 @@ public class deneme {
 // double result = x / y;
 // System.out.println((double)  x / 2);
 
-boolean x = (15 > 10);
-System.out.println(x);
-try {
-  Scanner in = new Scanner(System.in);
-  int n = in .nextInt();
-  in.close();
-  //String s=???; Complete this line below
+// boolean x = (15 > 10);
+// System.out.println(x);
+// try {
+//   Scanner in = new Scanner(System.in);
+//   int n = in .nextInt();
+//   in.close();
+//   //String s=???; Complete this line below
 
-  //Write your code here
-  String s = "" + n;
-  if(n == Integer.parseInt(s) && -100 <= (Integer.parseInt(s)) && (Integer.parseInt(s)) <= 100){
-   System.out.println("Good job");
-  } else {
-   System.out.println("Wrong answer");
-  } 
+//   //Write your code here
+//   String s = "" + n;
+//   if(n == Integer.parseInt(s) && -100 <= (Integer.parseInt(s)) && (Integer.parseInt(s)) <= 100){
+//    System.out.println("Good job");
+//   } else {
+//    System.out.println("Wrong answer");
+//   } 
 
+  int N = scanner.nextInt();
+  scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
+if(N % 2 == 1){
+System.out.println("Weird");
+} else if (N % 2 == 0 && 2 <= N && N < 6){
+System.out.println("Not Weird");
+} else if (N % 2 == 0 && 6 <= N && N <= 20){
+System.out.println("Weird");
+}else if (N % 2 == 0 && 20 < N){
+System.out.println("Not Weird");
+}
+scanner.close();
 }
 
     }
-  }
+  
 
 
