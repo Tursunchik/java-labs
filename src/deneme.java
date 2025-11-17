@@ -176,6 +176,8 @@ System.out.println("Weird");
 System.out.println("Not Weird");
 }
 scanner.close();
+System.out.println("Hello, World.");
+        System.out.println("Hello, Java.");
 }
 
     }
