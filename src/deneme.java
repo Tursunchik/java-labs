@@ -150,9 +150,23 @@ public class deneme {
 
 boolean x = (15 > 10);
 System.out.println(x);
+try {
+  Scanner in = new Scanner(System.in);
+  int n = in .nextInt();
+  in.close();
+  //String s=???; Complete this line below
 
-  }
-
+  //Write your code here
+  String s = "" + n;
+  if(n == Integer.parseInt(s) && -100 <= (Integer.parseInt(s)) && (Integer.parseInt(s)) <= 100){
+   System.out.println("Good job");
+  } else {
+   System.out.println("Wrong answer");
+  } 
 
 }
+
+    }
+  }
+
 
