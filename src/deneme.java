@@ -164,7 +164,23 @@ public class deneme {
 //    System.out.println("Wrong answer");
 //   } 
 
-
+if(x>=-128 && x<=127){
+    System.out.println("* byte");
+}else if (x >= -32768  && x <= 32767){
+System.out.println("* byte");
+System.out.println("* short");
+} else if (x >= -2147483648  && x <= 2147483647){
+    System.out.println("* byte");
+    System.out.println("* short");
+    System.out.println("* int");
+} else if(x >= -9223372036854775808 && x <= 9223372036854775807){
+    System.out.println("* byte");
+    System.out.println("* short");
+    System.out.println("* int");
+    System.out.println("* long");
+} else {
+    System.out.println("can't be fitted anywhere.");
+}
 }
 
     }
