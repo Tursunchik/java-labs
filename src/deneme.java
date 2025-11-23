@@ -164,26 +164,43 @@ public class deneme {
 //    System.out.println("Wrong answer");
 //   } 
 
-if(x>=-128 && x<=127){
-    System.out.println("* byte");
-}else if (x >= -32768  && x <= 32767){
-System.out.println("* byte");
-System.out.println("* short");
-} else if (x >= -2147483648  && x <= 2147483647){
-    System.out.println("* byte");
-    System.out.println("* short");
-    System.out.println("* int");
-} else if(x >= -9223372036854775808 && x <= 9223372036854775807){
-    System.out.println("* byte");
-    System.out.println("* short");
-    System.out.println("* int");
-    System.out.println("* long");
-} else {
-    System.out.println("can't be fitted anywhere.");
-}
+// if(x>=-128 && x<=127){
+//     System.out.println("* byte");
+// }else if (x >= -32768  && x <= 32767){
+// System.out.println("* byte");
+// System.out.println("* short");
+// } else if (x >= -2147483648  && x <= 2147483647){
+//     System.out.println("* byte");
+//     System.out.println("* short");
+//     System.out.println("* int");
+// } else if(x >= -9223372036854775808L && x <= 9223372036854775807L){
+//     System.out.println("* byte");
+//     System.out.println("* short");
+//     System.out.println("* int");
+//     System.out.println("* long");
+// } else {
+//     System.out.println("can't be fitted anywhere.");
+// }
+// }
+
+Scanner sc = new Scanner(System.in);
+int[10] numbers ;
+int evenSum = 0;
+int oddCount = 0;
+for(int i = 0; i < numbers.length;i++){
+    System.out.println("Enter number: ");
+    numbers[i] = sc.nextInt();
+    if(numbers[i] % 2 == 0){
+        evenSum += numbers[i];
+    } else {
+        oddCount++;
+    }
+System.out.println("Sum of even numbers: " + evenSum);
+System.out.println("Count of odd numbers: " + oddCount);
 }
 
+
     }
-  
+}
 
 
