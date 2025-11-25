@@ -183,21 +183,22 @@ public class deneme {
 // }
 // }
 
-Scanner sc = new Scanner(System.in);
-int[10] numbers ;
-int evenSum = 0;
-int oddCount = 0;
-for(int i = 0; i < numbers.length;i++){
-    System.out.println("Enter number: ");
-    numbers[i] = sc.nextInt();
-    if(numbers[i] % 2 == 0){
-        evenSum += numbers[i];
-    } else {
-        oddCount++;
-    }
-System.out.println("Sum of even numbers: " + evenSum);
-System.out.println("Count of odd numbers: " + oddCount);
-}
+
+// Scanner sc = new Scanner(System.in);
+// int[10] numbers ;
+// int evenSum = 0;
+// int oddCount = 0;
+// for(int i = 0; i < numbers.length;i++){
+//     System.out.println("Enter number: ");
+//     numbers[i] = sc.nextInt();
+//     if(numbers[i] % 2 == 0){
+//         evenSum += numbers[i];
+//     } else {
+//         oddCount++;
+//     }
+// System.out.println("Sum of even numbers: " + evenSum);
+// System.out.println("Count of odd numbers: " + oddCount);
+// }
 
 
     }
