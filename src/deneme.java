@@ -211,16 +211,25 @@ public class deneme {
 // }
 // System.out.println("Total: " + totalSum);
 
-int[] numbers = {10,20,30,40,50,60,70};
-int totalSum = 0;
-int limit = numbers.length;
-for(int i = 0; i< limit; i++){
-    totalSum += numbers[i];
-    if(numbers[i] % 3 == 2){
-        limit--;
-    }
+// int[] numbers = {10,20,30,40,50,60,70};
+// int totalSum = 0;
+// int limit = numbers.length;
+// for(int i = 0; i< limit; i++){
+//     totalSum += numbers[i];
+//     if(numbers[i] % 3 == 2){
+//         limit--;
+//     }
+// }
+// System.out.println("Total: " + totalSum);
+
+int line = 5;
+for(int i = 1; i <= line;i++){
+    for(int j = 1; j <=(line - i);j++)
+        System.out.print("-");
+    for(int j=(line-i+1);j <= line;j++)
+        System.out.print("*");
+    System.out.println();
 }
-System.out.println("Total: " + totalSum);
 
     }
 }
