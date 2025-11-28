@@ -200,16 +200,28 @@ public class deneme {
 // System.out.println("Count of odd numbers: " + oddCount);
 // }
 
+// int[] numbers = {10,20,30,40,50,60,70};
+// int totalSum = 0;
+// int limit = numbers.length;
+// for(int i = 0; i< limit; i++){
+//     totalSum += numbers[i];
+//     if(i % 3 == 2){
+//         limit--;
+//     }
+// }
+// System.out.println("Total: " + totalSum);
+
 int[] numbers = {10,20,30,40,50,60,70};
 int totalSum = 0;
 int limit = numbers.length;
 for(int i = 0; i< limit; i++){
     totalSum += numbers[i];
-    if(i % 3 == 2){
+    if(numbers[i] % 3 == 2){
         limit--;
     }
 }
 System.out.println("Total: " + totalSum);
+
     }
 }
 
