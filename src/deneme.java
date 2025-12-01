@@ -229,15 +229,41 @@ public class deneme {
 //     for(int j=(line-i+1);j <= line;j++)
 //         System.out.print("*");
 //     System.out.println();
-int[] numbers = {10, 20, 30, 40, 50};
+// int[] numbers = {10, 20, 30, 40, 50};
 
-System.out.println("Array elements:");
-for (int i = 0; i < numbers.length; i++) {
-    System.out.println(numbers[i]);
+// System.out.println("Array elements:");
+// for (int i = 0; i < numbers.length; i++) {
+//     System.out.println(numbers[i]);
     
+// Scanner sc = new Scanner(System.in);
+
+// int[] arr = new int[5]; 
+
+// System.out.println("Enter 5 numbers:");
+
+// for (int i = 0; i < arr.length; i++) {
+//     arr[i] = sc.nextInt();
+// }
+
+// System.out.println("You entered:");
+// for (int num : arr) {    
+//     System.out.println(num);
+
+int[] arr = {12, 5, 88, 44, 19};
+        
+int max = arr[0];
+
+for (int i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+        max = arr[i];
+    }
 }
 
-    }
+System.out.println("Maximum number: " + max);
+}
+}
+
+    
 
 
 
