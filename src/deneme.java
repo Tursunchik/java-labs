@@ -222,16 +222,22 @@ public class deneme {
 // }
 // System.out.println("Total: " + totalSum);
 
-int line = 5;
-for(int i = 1; i <= line;i++){
-    for(int j = 1; j <=(line - i);j++)
-        System.out.print("-");
-    for(int j=(line-i+1);j <= line;j++)
-        System.out.print("*");
-    System.out.println();
+// int line = 5;
+// for(int i = 1; i <= line;i++){
+//     for(int j = 1; j <=(line - i);j++)
+//         System.out.print("-");
+//     for(int j=(line-i+1);j <= line;j++)
+//         System.out.print("*");
+//     System.out.println();
+int[] numbers = {10, 20, 30, 40, 50};
+
+System.out.println("Array elements:");
+for (int i = 0; i < numbers.length; i++) {
+    System.out.println(numbers[i]);
+    
 }
 
     }
-}
+
 
 
