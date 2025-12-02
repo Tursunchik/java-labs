@@ -276,7 +276,20 @@ public class deneme {
 //     let result = arr.length;
 //     return result;
 //  };
-        
+        // 3512. Minimum Operations to Make Array Sum Divisible by K
+        // int result = 0;
+
+        // for (int i = 0; i < nums.length; i++) {
+        //     result += nums[i];
+        // }
+
+        // int needToAdd = 0;
+
+        // while ((result - needToAdd) % k != 0) {
+        //     needToAdd++;
+        // }
+
+        // return needToAdd;
 }
 }
 
