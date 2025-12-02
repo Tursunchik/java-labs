@@ -261,15 +261,21 @@ public class deneme {
 
 // System.out.println("Maximum number: " + max);
 
-int[] arr = {3, 7, 2, 9};
+// int[] arr = {3, 7, 2, 9};
 
-        int sum = 0;
+//         int sum = 0;
 
-        for (int i = 0; i < arr.length; i++) {
-            sum += arr[i];
-        }
+//         for (int i = 0; i < arr.length; i++) {
+//             sum += arr[i];
+//         }
 
-        System.out.println("Sum = " + sum);
+//         System.out.println("Sum = " + sum);
+
+// 2703. Return Length of Arguments Passed;
+// var argumentsLength = function(...arr) {
+//     let result = arr.length;
+//     return result;
+//  };
         
 }
 }
