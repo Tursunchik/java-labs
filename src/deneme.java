@@ -290,7 +290,18 @@ public class deneme {
         // }
 
         // return needToAdd;
-        System.out.println(e-z);
+        
+        // LeetCode 3110. Score of a String
+        // System.out.println(e.length - z.length );
+
+
+        // int score = 0;
+
+        // for (int i = 0; i < s.length() - 1; i++) {
+        //     score += Math.abs(s.charAt(i) - s.charAt(i + 1));
+        // }
+
+        // return score;
 }
 }
 
