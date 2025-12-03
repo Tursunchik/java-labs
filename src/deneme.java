@@ -290,6 +290,7 @@ public class deneme {
         // }
 
         // return needToAdd;
+        System.out.println(e-z);
 }
 }
 
