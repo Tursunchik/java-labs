@@ -304,17 +304,18 @@ public class deneme {
         // return score;
 
 
-        int sum = 0;
-        int count1 = 1;
-        while(count1 <= 5){
-            int count2 = 5;
-            while(count2 > count1){
-                sum += count1 * count2;
-                count2--;
-            }
-            count1++;
-        }
-        System.out.println( sum);
+        // int sum = 0;
+        // int count1 = 1;
+        // while(count1 <= 5){
+        //     int count2 = 5;
+        //     while(count2 > count1){
+        //         sum += count1 * count2;
+        //         count2--;
+        //     }
+        //     count1++;
+        // }
+        // System.out.println( sum);
+        
 }
 }
 
