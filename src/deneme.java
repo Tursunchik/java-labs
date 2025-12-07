@@ -326,12 +326,25 @@ public class deneme {
         // double average = sum / 7;
         // System.out.println("The average is: " + average);
 
-        int [] num = new int[5];
-        for(int i = 0; i < 5; i++ ){
-            num[i] = i;
+        // int [] num = new int[5];
+        // for(int i = 0; i < 5; i++ ){
+        //     num[i] = i;
+        // }
+        // System.out.println(num.length);
+        // System.out.println(num[5]);
+        int [] list = new int[10];
+        Scanner sc = new Scanner(System.in);
+        int number = sc.nextInt();
+        int i = 0;
+        while(number >= 0){
+list[i] = number;
+i++;
+number = sc.nextInt();
+
         }
-        System.out.println(num.length);
-        System.out.println(num[5]);
+        for(int j = 0; i < list.length;i++){
+            System.out.println(list[j]);
+        }
 }
 }
 
