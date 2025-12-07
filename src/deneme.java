@@ -353,10 +353,19 @@ public class deneme {
 //     System.out.println(i);
 // }
 
-for (int n = 1, product = 1; n <= 10; n++){
-    product = product * n;
-    System.out.println(product);}
+// for (int n = 1, product = 1; n <= 10; n++){
+//     product = product * n;
+//     System.out.println(product);}
 
+int i = 0;
+while (i < 5) {
+    i++;
+
+    if (i == 2) continue;
+    if (i == 4) break;
+
+    System.out.println(i);
+}
 }
 }
 
