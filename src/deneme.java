@@ -315,7 +315,23 @@ public class deneme {
         //     count1++;
         // }
         // System.out.println( sum);
-        
+        // double [] temperature = new double[7];
+        // double sum = 0;
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("Enter 7 temperatures: ");
+        // for(int i = 0; i < 7;i++){
+        //  temperature[i] = sc.nextDouble();
+        //  sum += temperature[i];
+        // }
+        // double average = sum / 7;
+        // System.out.println("The average is: " + average);
+
+        int [] num = new int[5];
+        for(int i = 0; i < 5; i++ ){
+            num[i] = i;
+        }
+        System.out.println(num.length);
+        System.out.println(num[5]);
 }
 }
 
