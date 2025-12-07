@@ -332,19 +332,31 @@ public class deneme {
         // }
         // System.out.println(num.length);
         // System.out.println(num[5]);
-        int [] list = new int[10];
-        Scanner sc = new Scanner(System.in);
-        int number = sc.nextInt();
-        int i = 0;
-        while(number >= 0){
-list[i] = number;
-i++;
-number = sc.nextInt();
+        // int [] list = new int[10];
+//         Scanner sc = new Scanner(System.in);
+//         int number = sc.nextInt();
+//         int i = 0;
+//         while(number >= 0){
+// list[i] = number;
+// i++;
+// number = sc.nextInt();
 
-        }
-        for(int j = 0; i < list.length;i++){
-            System.out.println(list[j]);
-        }
+//         }
+//         for(int j = 0; i < list.length;i++){
+//             System.out.println(list[j]);
+//         }
+// int [] list = new int[5];
+// list[0] = 1;
+// System.out.println(list[0]);
+// int [] nums = {1 ,2 ,3 ,4 ,5};
+// for(int i : nums){
+//     System.out.println(i);
+// }
+
+for (int n = 1, product = 1; n <= 10; n++){
+    product = product * n;
+    System.out.println(product);}
+
 }
 }
 
