@@ -357,15 +357,57 @@ public class deneme {
 //     product = product * n;
 //     System.out.println(product);}
 
-int i = 0;
-while (i < 5) {
-    i++;
+// int i = 0;
+// while (i < 5) {
+//     i++;
 
-    if (i == 2) continue;
-    if (i == 4) break;
+//     if (i == 2) continue;
+//     if (i == 4) break;
 
-    System.out.println(i);
-}
+//     System.out.println(i);
+//}
+// int N = 100;
+// int b = 1;
+// while (b<=N/2)
+// {
+// b = b*2;
+// }
+// System.out.println(b);
+
+// int n =10;
+// int i = 0;
+// while (i < n) {
+// System.out.print("*");
+// i++;
+// }
+// System.out.println();
+// String part = "abcd";
+// int par1 = 1, par2 = 129;
+// while (par2 > par1)
+// {
+// if (par1 < 100) {
+// System.out.println(par1);
+// par1 *= 2;
+
+// }
+// String p = "abcd";
+// int sum = 0;
+// for(int i = 0; i < p.length(); i++){
+// for(int j = 0; j < p.length();j++){
+//     if(p.charAt(i) == p.charAt(j)){
+        
+//     }
+// }
+// }
+// System.out.println(sum);
+//} 
+
+String word = "Work";
+String word1 = word.substring(0,1);
+System.out.println(word1);
+System.out.println(word);
+double i = 10.123;
+System.out.printf("%.2f", i);
 }
 }
 
