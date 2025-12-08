@@ -402,12 +402,34 @@ public class deneme {
 // System.out.println(sum);
 //} 
 
-String word = "Work";
-String word1 = word.substring(0,1);
-System.out.println(word1);
-System.out.println(word);
-double i = 10.123;
-System.out.printf("%.2f", i);
+// String word = "Work";
+// String word1 = word.substring(0,1);
+// System.out.println(word1);
+// System.out.println(word);
+// double i = 10.123;
+// System.out.printf("%.2f", i);
+// int [] a = {1 , 2 , 4 ,5};
+// int N = a.length;
+// for(int i = 0; i < N ; i++ ){
+//     int num = a[N - 1 - i];
+//     a
+// }
+// double[] arr = {1.0, 1.1, 1.2, 1.3, 1.4, 1.5};
+// int N = arr.length;
+// double[] a_temp = new double[N];
+
+// for (int i = 0; i < N; i++) {
+//     a_temp[N - i - 1] = arr[i];  // copy elements in reverse order
+// }
+
+// // arr = a_temp;
+// for(double myValue : arr){
+//     System.out.println(myValue);
+// }
+int x = 5;
+boolean s1 = (x > 3);
+System.out.println(s1);
+
 }
 }
 
