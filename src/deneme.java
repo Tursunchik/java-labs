@@ -426,9 +426,18 @@ public class deneme {
 // for(double myValue : arr){
 //     System.out.println(myValue);
 // }
-int x = 5;
-boolean s1 = (x > 3);
-System.out.println(s1);
+// int x = 5;
+// boolean s1 = (x > 3);
+// System.out.println(s1);
+int x = 0;
+for(int i = 0; i < 4;i++){
+    if(i % 2 == 0){
+        x += ++1;
+    } else {
+  x += 1++;
+    }
+}
+System.out.println(x);
 
 }
 }
