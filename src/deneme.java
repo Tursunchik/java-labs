@@ -430,11 +430,12 @@ public class deneme {
 // boolean s1 = (x > 3);
 // System.out.println(s1);
 int x = 0;
+int s = 0;
 for(int i = 0; i < 4;i++){
     if(i % 2 == 0){
-        x += ++1;
+        x += ++s;
     } else {
-  x += 1++;
+  x += s++;
     }
 }
 System.out.println(x);
