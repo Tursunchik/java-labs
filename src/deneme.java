@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 public class deneme {
     public static void main(String[] args) {
@@ -471,7 +472,40 @@ public class deneme {
 //     System.out.println("Not Found");
 // }
 
+// int[] arr = {10, 5, 20, 8, 15};
+// int big1 = arr[0];
+// for(int i = 1; i < arr.length;i++){
+//     if(arr[i] > big1){
+//         big1 = arr[i];
+//     }
+// }
+// int big2 = arr[0];
+// for(int i = 1; i < arr.length;i++){
+// if(arr[i] < big1 && arr[i]>big2){
+//     big2 = arr[i];
+// }
+// }
+// System.out.println(big2);
 
+// int[] arr = {1, 2, 2, 3, 4, 4, 5};
+// int[] temp = new int[arr.length];
+// for(int i = 0; i < arr.length;i++){
+
+// }
+
+
+// int[] a = {1,2,3};
+// int[] b = {1,2,3};
+// System.out.println(Arrays.equals(a,b));
+
+// int[] a = {1,2,3};
+// int[] b = new int[a.length];
+// for(int i = 0; i < a.length;i++){
+//      b[i] = a[a.length - 1 - i];
+// }
+// for(int x : b){
+//     System.out.print(x + " ");
+// }
 }
 }
 
