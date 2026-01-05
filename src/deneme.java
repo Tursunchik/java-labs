@@ -429,16 +429,20 @@ public class deneme {
 // int x = 5;
 // boolean s1 = (x > 3);
 // System.out.println(s1);
-int x = 0;
-int s = 0;
-for(int i = 0; i < 4;i++){
-    if(i % 2 == 0){
-        x += ++s;
-    } else {
-  x += s++;
-    }
-}
-System.out.println(x);
+// int x = 0;
+// int s = 0;
+// for(int i = 0; i < 4;i++){
+//     if(i % 2 == 0){
+//         x += ++s;
+//     } else {
+//      x += s++;
+//     }
+// }
+// System.out.println(x);
+// int[] arr = {3,7,1,9,4};
+// for(int i = 0; i < arr.length;i++){
+// System.out.println(arr[i]);
+// }
 
 }
 }
