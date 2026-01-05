@@ -444,6 +444,34 @@ public class deneme {
 // System.out.println(arr[i]);
 // }
 
+
+// int[] arr = {12,45,7,89,23};
+// int max = arr[0];
+// for(int i = 1; i < arr.length;i++){
+//     if(arr[i] > max)
+//       max = arr[i];
+// }
+// System.out.println(max);
+
+// int[] arr = {1, 2, 3, 4, 5};
+// for(int i = arr.length -1 ; i >= 0;i--){
+// System.out.print(arr[i] + " ");
+// }
+
+// int[] arr = {4, 8, 15, 16, 23, 42};
+// boolean found = false;
+// for(int i = 0; i < arr.length;i++){
+//     if(arr[i] == 15)
+//         found = true;
+    
+// }
+// if(found == true){
+// System.out.println("Found");
+// } else {
+//     System.out.println("Not Found");
+// }
+
+
 }
 }
 
