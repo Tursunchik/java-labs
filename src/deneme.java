@@ -531,17 +531,31 @@ public class deneme {
 //     System.out.print(element + " ");
 //}
 
+// double [] a = {1.0, 1.1, 1.2, 1.3, 1.4, 1.5};
+// int N = a.length;
+// double [] a_temp = new double[N];
+// for (int i = 0; i < N; i++)
+// {
+// a_temp[N-i-1] = a[i];
+// }
+// a = a_temp;
+// for (int i = 0; i < N; i++)
+// {
+// System.out.print(a[i] + " ");
+// }
+
+// Q2. Write a Java code segment that reverses the order of a one-dimensional
+// array a[] of double values.
+// • Do not create another array to hold the result.
+
 double [] a = {1.0, 1.1, 1.2, 1.3, 1.4, 1.5};
-int N = a.length;
-double [] a_temp = new double[N];
-for (int i = 0; i < N; i++)
-{
-a_temp[N-i-1] = a[i];
+for(int i = 0; i < a.length / 2;i++){
+    double temp = a[a.length - 1 - i];
+    a[a.length -1 - i] = a[i];
+    a[i] = temp;
 }
-a = a_temp;
-for (int i = 0; i < N; i++)
-{
-System.out.print(a[i] + " ");
+for(double element : a){
+    System.out.print(element + " ");
 }
 }
 }
