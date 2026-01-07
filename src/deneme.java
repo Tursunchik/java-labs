@@ -548,15 +548,137 @@ public class deneme {
 // array a[] of double values.
 // • Do not create another array to hold the result.
 
-double [] a = {1.0, 1.1, 1.2, 1.3, 1.4, 1.5};
-for(int i = 0; i < a.length / 2;i++){
-    double temp = a[a.length - 1 - i];
-    a[a.length -1 - i] = a[i];
-    a[i] = temp;
-}
-for(double element : a){
-    System.out.print(element + " ");
-}
+// double [] a = {1.0, 1.1, 1.2, 1.3, 1.4, 1.5};
+// for(int i = 0; i < a.length / 2;i++){
+//     double temp = a[a.length - 1 - i];
+//     a[a.length -1 - i] = a[i];
+//     a[i] = temp;
+// }
+// for(double element : a){
+//     System.out.print(element + " ");
+// }
+
+// Q3. You are given two String arrays airport1 and airport2. Each array keeps departure
+// cities from an airport. Write a Java program which finds common cities of both
+// arrays, keeps them in a separate array and finally prints these cities as shown in
+// Sample Output. Your code should work for arrays of arbitrary size.
+// Sample Output
+// 3 cities are in common departures of airport 1 and 2
+// These common cities are:
+// LA
+// Berlin
+// New York
+// String[] airport1 = {"London", "LA", "Zurich",
+// "Berlin","Frankfurt", "New York"};
+// String[] airport2 = {"Basel", "Istanbul", "LA", "Antalya",
+// "Berlin", "New York"};
+// //Your code will come here!!!
+// String[] commonCities = new String[3];
+// int common = 0;
+// for(int i = 0; i < airport1.length;i++){
+//     for(int j = 0; j < airport2.length;j++){
+//         if(airport1[i].equalsIgnoreCase(airport2[j])){
+//             commonCities[common] = airport2[j];
+//             common++;
+//         }
+//     }
+// }
+// for(String element : commonCities){
+//     System.out.println(element);
+// }
+
+// Q4. You are given two String arrays airport1 and airport2. Each array keeps departure
+// cities from an airport. Write a Java program which finds the cities in airport1 but not
+// in airport2, keeps them in a separate array and finally prints these cities as shown in
+// Sample Output. Your code should work for arrays of arbitrary size.
+// Sample Output
+// The cities in airport 1 but not in airport 2
+// London
+// Zurich
+// Frankfurt
+
+// String[] airport1 = {"London", "LA", "Zurich",
+// "Berlin","Frankfurt", "New York"};
+// String[] airport2 = {"Basel", "Istanbul", "LA", "Antalya",
+// "Berlin", "New York"};
+// int count = 0;
+// for(int i = 0; i < airport1.length;i++){
+//     boolean found = false;
+//     for(int j = 0; j < airport2.length;j++){
+//         if(airport1[i].equalsIgnoreCase(airport2[j])){
+//         found = true;
+//         break;
+//     }
+// }
+// if(!found){
+//     System.out.println(airport1[i]);
+// }
+// }
+
+// Q5. Write a Java code segment that finds the maximum, the minimum, and the
+// average value of a one-dimensional array a[] of int values and prints these values as
+// shown in Sample Output. Your code should work for arrays of arbitrary size.
+// Sample Output
+// Maximum: 40
+// Minimum: -6
+// Average: 11.0
+
+// int[] a = {10, 5, 15, 2, 40, -6};
+// int max = Integer.MIN_VALUE;
+// int min = Integer.MAX_VALUE;
+// double sum = 0;
+// for(int i = 0; i < a.length;i++){
+//     if(a[i] > max){
+//         max = a[i];
+//     }
+// }
+// for(int i = 0; i < a.length;i++){
+//     if(a[i] < min){
+//         min= a[i];
+//     }
+// }
+// for(int i = 0;i<a.length;i++){
+//     sum += a[i];
+// }
+// System.out.println("Maximum: " + max);
+// System.out.println("Minimum: " + min);
+// System.out.println("Average: " + (sum / a.length));
+
+// 8. Write a Java program to find the number of occurrences of each element of an
+// array a[] of int values. The program output is as shown in Sample Output. Your code
+// should work for arrays of arbitrary size.
+// Sample Output
+// 1 : 3
+// 1 : 3
+// 3 : 2
+// 81 : 3
+// 3 : 2
+// 25 : 1
+// 81 : 3
+// 1 : 3
+// 81 : 3
+// int[] a = {1, 1, 3, 81, 3, 25, 81, 1, 81};
+// for(int i = 0; i < a.length;i++){
+//     int count = 0;
+//     for(int j = 0; j < a.length;j++){
+//         if(a[i] == a[j]){
+//         count++;
+//         }
+        
+//     }
+//     System.out.println(a[i] + ":" + count);
+// }
+// int[] a = {1, 5, 3, 18, 3, 25, 81, 1, 61};
+// System.out.println("Duplicate values");
+// for(int i = 0; i < a.length;i++){
+//     for(int j = i + 1; j < a.length;j++){
+//         if(a[i] == a[j]){
+//             System.out.println(a[i]);
+//         }
+//     }
+
+// }
+
 }
 }
 
