@@ -678,7 +678,30 @@ public class deneme {
 //     }
 
 // }
+// String name;
+// int id;
+// double salary;
+// Employee e1 = new Employee();
+// e1.name = "John";
+// e1.id = 101;
+// e1.salary = 5000;
+// e1.work();
 
+// void work() {
+//     System.out.println(name + " is working.");
+// }
+
+// book b1  = new book("48 rules of power" , 256);
+// System.out.println(b1.name);
+
+int[] arr = {1,2,3,4,5};
+int i;
+for(i = 1; i < arr.length;i++){
+    arr[i] = arr[i] + arr[i-1];
+}
+for(i = 0; i < arr.length;i++){
+    System.out.print(arr[i] + " ");
+}
 }
 }
 
